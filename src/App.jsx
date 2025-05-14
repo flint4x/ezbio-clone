@@ -156,7 +156,7 @@ function App() {
         <p1 className='num'>{viewCount}</p1>
         <img src={pfp} className='pfp' alt="Profile Picture" />
         <div className='info' >
-          <h1 className='name'>kyr0</h1>
+          <h1 className='name'>  kyr0</h1>
           <h1 className='bio'>{bio}</h1> {/* Bio with typewriter effect */}
         </div>
         <div className='links'>
@@ -185,9 +185,9 @@ function App() {
             <img src={cover} className='songcover' alt='' />
           </a>
           <div className='songinfo'>
-            <p1 className='songtitle'>Blue</p1>
-            <p1 className='artist'>by yung kai</p1>
-            <p1 className='album' href>on kyr0s masterpieces</p1>
+            <p1 className='songtitle'>  Blue</p1>
+            <p1 className='artist'>   by yung kai</p1>
+            <p1 className='album' href>  on kyr0s masterpieces</p1>
           </div>
           <div className='time-label'>
             {formatTime(currentTime)} / {formatTime(maxTime)}
